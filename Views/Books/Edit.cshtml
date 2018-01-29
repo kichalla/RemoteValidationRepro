@@ -1,0 +1,50 @@
+﻿@model WebApplication.Models.BookViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Edit</h2>
+
+<h4>BookViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ISBN" class="control-label"></label>
+                <input asp-for="ISBN" class="form-control" />
+                <span asp-validation-for="ISBN" class="text-danger"></span>
+            </div>
+            @if (Model is NovelViewModel)
+            {
+                <div class="form-group">
+                    <label asp-for="@((Model as NovelViewModel).Protagonist)" class="control-label"></label>
+                    <input asp-for="@((Model as NovelViewModel).Protagonist)" class="form-control" />
+                    <span asp-validation-for="@((Model as NovelViewModel).Protagonist)" class="text-danger"></span>
+                </div>
+            }
+
+            <div class="form-group">
+                <button type="submit" asp-action="Update">Update</button>
+                <button type="submit" asp-action="Decline">Decline</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

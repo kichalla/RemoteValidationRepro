@@ -1,0 +1,13 @@
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.deps.json
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.runtimeconfig.json
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.runtimeconfig.dev.json
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.dll
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\bin\Debug\netcoreapp2.0\WebApplication.pdb
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.csprojResolveAssemblyReference.cache
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.AssemblyInfo.cs
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.dll
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.pdb
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.Resources.Resource.resources
+C:\Users\kichalla\Downloads\WebApplication\WebApplication\obj\Debug\netcoreapp2.0\WebApplication.csproj.GenerateResource.Cache
